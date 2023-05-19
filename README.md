@@ -142,3 +142,32 @@ System.out.println(String.format("Meu nome é %s, eu tenho %d anos e hoje gastei
 
 <br>
 
+## Java: Aplicando a Orientação a Objetos
+
+### Modificadores de acesso
+
+- public: pode ser acessado por qualquer classe em qualquer pacote
+- protected: permite que os atributos de uma classe sejam acessados por outras classes do mesmo pacote e também por suas subclasses;
+- private: só pode ser acessado dentro da própria classe;
+- default (package-private): pode ser acessado apenas pelas classes que estão no mesmo pacote;
+
+### Documentação Java 👉 [Java Documentation](https://docs.oracle.com/en/java/) 👉 [Java SE Technical Documentation](https://docs.oracle.com/en/java/javase/20/) 👉 [API Documentation](https://docs.oracle.com/en/java/javase/20/docs/api/index.html)
+
+### “This”:
+
+- É usado para fazer referência aos atributos da classe, especialmente em métodos que têm parâmetros com o mesmo nome do atributo da classe em que estamos trabalhando.
+
+### Algumas anotações:
+
+- @Override: anotação do Java que possibilita a sobrescrita de métodos.
+- @Deprecated: usada para indicar que um método ou classe está obsoleto e não deve ser mais utilizado;
+- @NotNull: usada para validar que um atributo não seja nulo;
+
+### Herança:
+
+- Realizada através da palavra-chave extends(aceita apenas uma única classe).
+
+### Interfaces:
+
+- Define quais métodos devem ser implementados pelas classes que o implementam.
+- Todos os métodos são públicos, não sendo então necessário utilizar a palavra reservada public na declaração deles;
