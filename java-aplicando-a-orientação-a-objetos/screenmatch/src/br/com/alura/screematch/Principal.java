@@ -1,3 +1,5 @@
+package br.com.alura.screematch;
+
 import br.com.alura.screematch.calculos.CalculadoraDeTempo;
 import br.com.alura.screematch.calculos.FiltroRecomendacao;
 import br.com.alura.screematch.modelo.Episodio;
