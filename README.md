@@ -72,7 +72,8 @@
 
 ### Java 15 - Formatação de String [Text Block]:
 
-- ``` sinopse = """
+- ``` 
+sinopse = """
         Filme Top Gun
         Filme de aventura com galã dos anos 80
         Muito bom!
@@ -83,7 +84,7 @@
 
 ### Mais formatação de String:
 
-```
+- ```
 String nome = "Maria";
 int idade = 30;
 double valor = 55.9999;
@@ -171,3 +172,61 @@ System.out.println(String.format("Meu nome é %s, eu tenho %d anos e hoje gastei
 
 - Define quais métodos devem ser implementados pelas classes que o implementam.
 - Todos os métodos são públicos, não sendo então necessário utilizar a palavra reservada public na declaração deles;
+
+## Java: Trabalhando com Listas e Coleções de dados
+
+- A partir da versão 10 do Java, foi adicionada uma nova funcionalidade para a declaração de variáveis chamada var, permitindo que o compilador infira automaticamente o tipo da variável com base no valor atribuído a ela;
+- Não é possível usar var em variáveis sem valor inicial. É necessário atribuir um valor à variável na mesma linha em que ela é declarada.
+
+### Arrays:
+
+- São estruturas de dados que permitem armazenar uma coleção de elementos do mesmo tipo.
+- Exemplo: int[] numeros = new int[5];
+- O tamanho de um array é fixo e não pode ser alterado após a sua criação;
+- Não possuem métodos que permitam a inserção, remoção ou pesquisa de elementos de forma eficiente;
+
+### Construtores:
+
+- Recurso para encapsuçar objetos;
+
+### ForEach | Method Reference:
+
+```
+for (<classe> nome : nomes) {
+    System.out.println(nome);
+}
+```
+
+```
+nomes.forEach(nome -> System.out.println(nome));
+```
+
+```
+nomes.forEach(System.out::println);
+```
+
+### Referências:
+
+- São ponteiros para objetos em memória;
+
+### Ordenando uma lista:
+
+- Collections.sort(lista);
+- lista.sort(Comparator.comparing(<parâmetro>);
+
+### ArrayList:
+
+- Baseado em um Array, conforme novos elementos são adicionados, o tamanho da matriz é automaticamente ajustado para acomodar o novo elemento;
+
+### LinkedList:
+
+- Baseado em uma lista encadeada, cada elemento da lista é um objeto que contém uma referência para o próximo elemento;
+
+### Map:
+
+- Interface que permite que os desenvolvedores associem chaves a valores;
+
+### HashMap: 
+
+- Classe que implementa a interface Map usando uma tabela hash para armazenar os pares chave-valor;
+
