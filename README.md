@@ -230,3 +230,105 @@ nomes.forEach(System.out::println);
 
 - Classe que implementa a interface Map usando uma tabela hash para armazenar os pares chave-valor;
 
+## Java: Consumindo API, gravando arquivos e lindando com erros
+
+### OMDb API:
+
+- https://www.omdbapi.com/
+- https://www.omdbapi.com/?t=[nome-do-filme]&apikey=[chave]
+
+### API:
+
+- Application Programming Interface: é um conjunto de padrões, protocolos e ferramentas para construir software e aplicativos. 
+- Uma API permite que diferentes sistemas e serviços se comuniquem e troquem informações de maneira padronizada. 
+- Existem diferentes tipos de APIs, sendo que o mais comum é API Web, que utiliza o protocolo HTTP para comunicação via internet.
+
+### JSON:
+
+- JavaScript Object Notation: é um formato de dados leve e popular para troca de informações entre sistemas, podendo ser utilizado em várias linguagens de programação.
+
+### HTTP:
+
+- Hypertext Transfer Protocol: é um protocolo de comunicação que permite a transferência de informações na internet. Ele é a base para a comunicação entre navegadores e servidores Web, sendo utilizado para a transmissão de conteúdo como textos, imagens e vídeos.
+
+### Códigos de Status (Classes):
+
+- 1xx: Informações
+- 2xx: Sucesso
+- 3xx: Redirecionamento
+- 4xx: Erro do cliente
+- 5xx: Erro do servidor
+
+### Design patterns (Padrões de projeto):
+
+- Categorias (Padrões de criação, Padrões de estrutura, Padrões de comportamento);
+
+### MVN Repository:
+
+- Repositório que disponibiliza dependências/bibliotecas;
+
+### Frameworks:
+
+- São estruturas de software que fornecem uma arquitetura básica para o desenvolvimento de aplicações;
+- Spring Framework: facilita a criação de aplicações Web e APIs Rest complexas em Java;
+- Hibernate: framework de mapeamento objeto-relacional que simplifica o processo de integração de uma aplicação Java com um banco de dados relacional;
+
+### Record (Java 16):
+
+- Recurso que permite representar uma classe imutável, contendo apenas atributos, construtor e métodos de leitura;
+- Indicado para ser usado nos casos de criação de objeto apenas para representar dados, sem nenhum tipo de comportamento.
+
+### Imutabilidade:
+
+- Capacidade de um objeto não poder ser alterado depois de criado;
+- Concorrência: objetos imutáveis são seguros para uso em ambientes concorrentes, já que não há necessidade de sincronização.
+- Segurança: objetos imutáveis são seguros contra alterações acidentais ou mal-intencionadas.
+- Desempenho: objetos imutáveis podem ser armazenados em cache e reutilizados, o que pode melhorar o desempenho.
+ 
+### Tratamento de Exceções:
+
+- Podem ser previstas, tratáveis e antecipadas;
+- try-catch;
+- finally (opcional);
+- Exception: são chamadas de exceções verificadas (checked exceptions);
+- RuntimeException [subclasse direta de Exception]: suas herdeiras são chamadas de exceções não verificadas (unchecked exception);
+
+### Multi-catch:
+
+```
+try {
+    metodoQuePodeLancarExcecao();
+} catch (ExceptionUm e) {
+    System.out.println("erro...");
+} catch (ExceptionDois e) {
+    System.out.println("erro...");
+}
+```
+
+### File - Criando um arquivo:
+
+```
+File file = new File("C:\\meuArquivo.txt");
+```
+
+### File - Alguns métodos:
+
+- exists();
+- canRead();
+- canWrite();
+- isDirectory();
+- isFile();
+- mkdir();
+- delete();
+
+### Outras classes para leitura e escrita de arquivos:
+
+- FileReader;
+- FileWriter;
+- BufferedReader;
+- BufferedWriter;
+- FileInputStream;
+- FileOutputStream;
+- ObjectInputStream;
+- ObjectOutputStream;
+- Scanner;

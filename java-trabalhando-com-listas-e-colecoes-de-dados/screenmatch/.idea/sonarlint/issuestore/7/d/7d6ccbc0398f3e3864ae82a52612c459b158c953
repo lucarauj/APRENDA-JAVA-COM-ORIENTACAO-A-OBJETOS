@@ -1,0 +1,5 @@
+
+v
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¿Åš×8ï¡ö…1
+t
+java:S1158"WCall the static method Double.compare(...) instead of instantiating a temporary object.(ËïÜù8ö¡ö…1

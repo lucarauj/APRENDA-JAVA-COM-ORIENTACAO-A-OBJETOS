@@ -1,0 +1,10 @@
+
+j
+java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ôÙì ùÿÿÿÿ8ÏÊúÀ†1
+_
+java:S1128"BRemove this unused import 'br.com.alura.screematch.modelo.Titulo'.(¦ßÆ8×ÊúÀ†1
+`
+java:S1128">Remove this unused import 'com.google.gson.FieldNamingPolicy'.(¶Øùÿÿÿÿ8×ÊúÀ†1
+M
+java:S1128
+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8×ÊúÀ†1
