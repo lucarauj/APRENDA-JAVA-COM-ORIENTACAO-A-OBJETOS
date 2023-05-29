@@ -1,4 +1,13 @@
-## Java: Criando a sua primeira aplicacao
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/Formacao-Java/blob/main/LICENSE)
+
+<h1 align="center">APRENDA JAVA COM ORIENTAÇÃO A OBJETOS:</h1>
+<h3 align="center">4 cursos da formação com carga horária estimada em 37 horas</h3>
+
+
+<br><br><br><br><br>
+
+<p align="center"><img width="150px" src="https://github.com/lucarauj/assets/blob/main/Java.png" /></p>
+<h1 align="center">Java: Criando a sua primeira aplicacao</h1>
 
 <br>
 
@@ -143,7 +152,8 @@ System.out.println(String.format("Meu nome é %s, eu tenho %d anos e hoje gastei
 
 <br>
 
-## Java: Aplicando a Orientação a Objetos
+<p align="center"><img width="150px" src="https://github.com/lucarauj/assets/blob/main/Java.png" /></p>
+<h1 align="center">Java: Aplicando a Orientação a Objetos</h1>
 
 ### Modificadores de acesso
 
@@ -173,7 +183,10 @@ System.out.println(String.format("Meu nome é %s, eu tenho %d anos e hoje gastei
 - Define quais métodos devem ser implementados pelas classes que o implementam.
 - Todos os métodos são públicos, não sendo então necessário utilizar a palavra reservada public na declaração deles;
 
-## Java: Trabalhando com Listas e Coleções de dados
+<br>
+
+<p align="center"><img width="150px" src="https://github.com/lucarauj/assets/blob/main/Java.png" /></p>
+<h1 align="center">Java: Trabalhando com Listas e Coleções de dados</h1>
 
 - A partir da versão 10 do Java, foi adicionada uma nova funcionalidade para a declaração de variáveis chamada var, permitindo que o compilador infira automaticamente o tipo da variável com base no valor atribuído a ela;
 - Não é possível usar var em variáveis sem valor inicial. É necessário atribuir um valor à variável na mesma linha em que ela é declarada.
@@ -230,7 +243,10 @@ nomes.forEach(System.out::println);
 
 - Classe que implementa a interface Map usando uma tabela hash para armazenar os pares chave-valor;
 
-## Java: Consumindo API, gravando arquivos e lindando com erros
+<br>
+
+<p align="center"><img width="150px" src="https://github.com/lucarauj/assets/blob/main/Java.png" /></p>
+<h1 align="center">Java: Consumindo API, gravando arquivos e lindando com erros</h1>
 
 ### OMDb API:
 
@@ -332,3 +348,11 @@ File file = new File("C:\\meuArquivo.txt");
 - ObjectInputStream;
 - ObjectOutputStream;
 - Scanner;
+
+<br>
+
+## 👨‍🎓 Aluno
+
+#### Lucas Araujo
+
+<a href="https://www.linkedin.com/in/lucarauj"><img alt="lucarauj | LinkdeIN" width="40px" src="https://user-images.githubusercontent.com/43545812/144035037-0f415fc7-9f96-4517-a370-ccc6e78a714b.png" /></a>
